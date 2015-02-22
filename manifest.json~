@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,	
+	"name": "Open URLs",
+	"version": "0.1",
+	"description": "Open urls in different tabs",
+	"browser_action": {
+		"default_icon": "images/icon.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+  		"tabs"
+  	]
+}
